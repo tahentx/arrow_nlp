@@ -54,6 +54,9 @@ Project Organization
 --------
 
 <p>Technology stack<p>
-![](https://github.com/tahentx/arrow_nlp/tree/master/images/stack.png)
+<p align="center">
+  <img src="/images/stack.png" width="350" title="hover text">
+</p>
+
 
 
