@@ -54,6 +54,6 @@ Project Organization
 --------
 
 <p>Technology stack<p>
-![Tech Stack](/Users/toddhendricks/Public/code/datascience/arrow_nlp/stack.png)
+![](docs/stack.png)
 
 
