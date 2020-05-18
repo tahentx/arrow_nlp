@@ -54,6 +54,6 @@ Project Organization
 --------
 
 <p>Technology stack<p>
-![](docs/stack.png)
+![](images/stack.png)
 
 
