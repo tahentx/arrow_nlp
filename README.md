@@ -55,7 +55,7 @@ Project Organization
 
 <p>Technology stack<p>
 <p align="center">
-  <img src="/images/stack.png" width="350" title="hover text">
+  <img src="/images/stack.png" width="550" title="hover text">
 </p>
 
 
