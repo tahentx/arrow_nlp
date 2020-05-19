@@ -1,4 +1,4 @@
-arrow_nlp
+Topic Modeling the Apache Arrow repository.
 ==============================
 
 Topic modeling the Apache Arrow repo (commit comments and pull requests) using non-negative matrix factorization.
@@ -53,10 +53,17 @@ Project Organization
 
 --------
 
-<p>Technology stack<p>
+<p>Technology stack</p>
 <p align="center">
   <img src="/images/stack.png" width="550" title="hover text">
 </p>
+ 
+ --------
 
+<p>Model Selection Rationale</p>
+<p>Inspired by a software development podcast in which the topic was working effectively with legacy code, I thought it would be interesting to apply natural language processing to an unfamiliar codebase in order to get a sense of what's important. Key themes could provide helpful context before actually diggin into the code. With this idea, I knew that in a technical sense, this was a topic modeling problem.</p>
+<p>I learned of Non-negative Matrix Factorization (NMF) through a colleague who was pleased with his implementation of the model on a twitter dataset. Commit messages, I would argue, are similar in size and structure to tweets, so I could assume the data would be of similar shape. At a minimum, it would set a good baseline.  </p>
+<p>The other widely used algorithm for topic modeling is Latent Semantic Analysis. As I understand it, the strength of LSA is in surfacing the relationships between documents, which I did not consider a primary goal of my project. The relationship between commits, pull requests, and the associated comments are well-defined.</p>
 
+ --------
 
